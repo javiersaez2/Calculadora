@@ -1,8 +1,19 @@
 package menu;
 import java.util.Scanner;
+/**
+ * Menu de la calculadora
+ * 
+ * @author Javier
+ * @version 11.09.2022
+ * 
+ */
+
 public class Menu {
-    private static Scanner teclado = new Scanner(System.in);
-    
+    private static Scanner teclado = new Scanner(System.in) ;
+    /**
+     * 
+     * @return Devuelve el array
+     */
     public int[] pedirNumeros(){
         int[] ret = new int[2];
         System.out.print ("Operando 1: ");
@@ -11,7 +22,10 @@ public class Menu {
         ret [1] = teclado.nextInt();
         return ret;
     }
-    
+ /**
+  * 
+  * @return Devuelve el signo escrito por tecladao para hacer la operacion adeacuada
+  */
     public String menuOpciones() {
         String ret = "";
         do {
@@ -23,7 +37,10 @@ public class Menu {
                 ));
                 return ret;
     }
-    
+    /**
+     * 
+     * @return Devuelve un booleanao true, cuando la respuesta sea igual a "s" para que la calculadora continue ejecutandose
+     */
     public boolean repetir(){
         boolean ret = false;
         String respuesta;
@@ -37,5 +54,6 @@ public class Menu {
             ret = true;
         }
         return ret;
+    
     }
 }
