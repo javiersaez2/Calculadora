@@ -40,7 +40,7 @@ public class Calculadora{
                 System.out.println ("Operación no válida");
             }}
             catch(ArithmeticException e) {
-          	  System.out.println ("Operación aritmetica no válida" + e.getMessage());
+          	  System.out.println ("Operación aritmetica no válida " + e.getMessage());
           }
         }         
            while (menu.repetir());
