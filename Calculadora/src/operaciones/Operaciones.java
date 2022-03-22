@@ -3,7 +3,7 @@ package operaciones;
  * Operaciones ralizadas del programa calculadora
  * 
  * @author Javier
- *  * @version 11.09.2022
+ *  * @version 11.03.2022
  *
  */
 public class Operaciones {
