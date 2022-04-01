@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-03-25T10:23:33.981418400Z</date>
+  <millis>1648203813981</millis>
+  <nanos>418400</nanos>
+  <sequence>0</sequence>
+  <logger>logs.LogConsolaMasFichero</logger>
+  <level>CONFIG</level>
+  <class>logs.LogConsolaMasFichero</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Configuración hecha.</message>
+</record>
+<record>
+  <date>2022-03-25T10:23:34.076230900Z</date>
+  <millis>1648203814076</millis>
+  <nanos>230900</nanos>
+  <sequence>1</sequence>
+  <logger>logs.LogConsolaMasFichero</logger>
+  <level>FINE</level>
+  <class>logs.LogConsolaMasFichero</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Nivel de log cambiado a FINE</message>
+</record>
+<record>
+  <date>2022-03-25T10:23:34.083540500Z</date>
+  <millis>1648203814083</millis>
+  <nanos>540500</nanos>
+  <sequence>2</sequence>
+  <logger>logs.LogConsolaMasFichero</logger>
+  <level>FINER</level>
+  <class>logs.LogConsolaMasFichero</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Ejemplo con log FINE en LOGGER completado.</message>
+</record>
+</log>
