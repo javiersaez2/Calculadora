@@ -12,7 +12,7 @@ public class FiltroLogNulo implements Filter {
 		// TODO Auto-generated method stub
 		boolean guardarLog= false;
 		
-			if(Calculadora.resultado==0) {
+		if ( record.getMessage() != null && Calculadora.resultado == 0) {
 				guardarLog = true;
 				}
 	
