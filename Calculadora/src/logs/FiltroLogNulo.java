@@ -11,10 +11,12 @@ public class FiltroLogNulo implements Filter {
 	public boolean isLoggable(LogRecord record) {
 		// TODO Auto-generated method stub
 		boolean guardarLog= false;
-		
-		if ( record.getMessage() != null && Calculadora.resultado == 0) {
+		String[] array = record.getMessage().split(" ");
+		int numero = Integer.parseInt(array[array.length-1]);
+		if (numero == 0) {
+		if (array[array.length-1].contains("0")){
 				guardarLog = true;
-				}
+		}}
 	
 		return guardarLog;
 	}
