@@ -14,7 +14,7 @@ public class FiltroLogNulo implements Filter {
 		String[] array = record.getMessage().split(" ");
 		int numero = Integer.parseInt(array[array.length-1]);
 		if (numero == 0) {
-		if (array[array.length-1].contains("0")){
+		if (array[array.length-1].equals("0")){
 				guardarLog = true;
 		}}
 	
