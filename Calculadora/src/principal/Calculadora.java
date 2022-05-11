@@ -29,6 +29,7 @@ public class Calculadora{
 	   	static {
 	   		try {
 	   			logManager.readConfiguration(new FileInputStream("src/logs/configLog.properties"));
+	   			logManager.readConfiguration(new FileInputStream("src/logs/configLogNulo.properties"));
 	   		} catch (IOException exception) {
 	   			LOGGER.log(Level.SEVERE, "Error al cargar la configuración", exception);
 	   		}

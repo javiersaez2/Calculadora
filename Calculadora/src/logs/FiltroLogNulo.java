@@ -12,11 +12,10 @@ public class FiltroLogNulo implements Filter {
 		// TODO Auto-generated method stub
 		boolean guardarLog= false;
 		String[] array = record.getMessage().split(" ");
-		int numero = Integer.parseInt(array[array.length-1]);
-		if (numero == 0) {
+		String numero = (array[array.length-1]);
 		if (array[array.length-1].equals("0")){
 				guardarLog = true;
-		}}
+		}
 	
 		return guardarLog;
 	}
